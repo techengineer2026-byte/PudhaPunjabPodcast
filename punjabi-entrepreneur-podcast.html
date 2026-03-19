@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO OPTIMIZED TITLE & DESCRIPTION -->
+    <title>#1 Punjabi Entrepreneur Podcast | Real Business Stories & Startups</title>
+    <meta name="description"
+        content="Listen to the top-rated Punjabi Entrepreneur Podcast. Authentic, unscripted business stories, startup journeys, and success secrets from Punjab's best minds. Hosted in Puadhi dialect.">
+    <meta name="keywords"
+        content="Punjabi entrepreneur podcast, business podcast punjab, punjabi startup stories, chandigarh entrepreneurs, business motivation in punjabi, ludhiana business">
+
+    <!-- OPEN GRAPH -->
+    <meta property="og:title" content="The #1 Punjabi Entrepreneur Podcast">
+    <meta property="og:description" content="Real stories of struggle and success from Punjab's business leaders.">
+    <meta property="og:image" content="https://puadhpunjabipodcast.com/img/logo.webp">
+    <meta property="og:url" content="https://puadhpunjabipodcast.com/punjabi-entrepreneur-podcast">
+
+    <!-- SCHEMA MARKUP -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "PodcastSeries",
+      "name": "Puadh Punjabi Podcast",
+      "url": "https://puadhpunjabipodcast.com/punjabi-entrepreneur-podcast",
+      "description": "The premier podcast for Punjabi entrepreneur stories and business insights.",
+      "inLanguage": "pa-IN",
+      "genre": "Business",
+      "author": {
+        "@type": "Person",
+        "name": "Gurinder Singh Dhanoa"
+      }
+    }
+    </script>
+
+    <!-- FONTS & ICONS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- STYLES -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary-gold: #FDB515;
+            --bg-dark: #050505;
+            --card-bg: #111111;
+            --text-muted: #cccccc;
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: white;
+            font-family: 'Outfit', sans-serif;
+            overflow-x: hidden;
+        }
+
+        /* Navbar */
+        .navbar-glass {
+            background: rgba(0, 0, 0, 0.9);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 15px 0;
+        }
+
+        .nav-link {
+            color: white !important;
+            font-weight: 500;
+            transition: color 0.3s;
+            margin-left: 20px;
+        }
+
+        .nav-link:hover {
+            color: var(--primary-gold) !important;
+        }
+
+        /* Hero */
+        .hero-section {
+            padding: 160px 0 100px;
+            background: radial-gradient(circle at top center, #1a1a1a 0%, #000000 80%);
+            text-align: center;
+        }
+
+        .hero-subtitle {
+            color: var(--primary-gold);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+            display: inline-block;
+            border: 1px solid rgba(253, 181, 21, 0.3);
+            padding: 8px 16px;
+            border-radius: 50px;
+            background: rgba(253, 181, 21, 0.05);
+        }
+
+        .hero-title {
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 25px;
+            line-height: 1.2;
+        }
+
+        .text-gradient {
+            background: linear-gradient(45deg, #ffffff, #999999);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .text-gold {
+            color: var(--primary-gold);
+        }
+
+        /* Feature Cards */
+        .feature-card {
+            background: var(--card-bg);
+            border: 1px solid #222;
+            padding: 35px;
+            border-radius: 12px;
+            height: 100%;
+            transition: all 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+            border-color: var(--primary-gold);
+            box-shadow: 0 10px 30px rgba(253, 181, 21, 0.1);
+        }
+
+        .icon-box {
+            font-size: 2rem;
+            color: var(--primary-gold);
+            margin-bottom: 20px;
+            width: 60px;
+            height: 60px;
+            background: rgba(253, 181, 21, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Episode Cards */
+        .episode-card {
+            background: #0a0a0a;
+            border: 1px solid #222;
+            border-radius: 12px;
+            overflow: hidden;
+            transition: transform 0.3s;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .episode-card:hover {
+            transform: translateY(-5px);
+            border-color: #444;
+        }
+
+        .episode-badge {
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            padding: 5px 10px;
+            border-radius: 4px;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+
+        .badge-tech {
+            background: rgba(0, 255, 255, 0.1);
+            color: cyan;
+            border: 1px solid rgba(0, 255, 255, 0.3);
+        }
+
+        .badge-realestate {
+            background: rgba(255, 215, 0, 0.1);
+            color: gold;
+            border: 1px solid rgba(255, 215, 0, 0.3);
+        }
+
+        .badge-agri {
+            background: rgba(0, 255, 0, 0.1);
+            color: lime;
+            border: 1px solid rgba(0, 255, 0, 0.3);
+        }
+
+        /* Buttons */
+        .btn-gold {
+            background: var(--primary-gold);
+            color: black;
+            padding: 15px 35px;
+            border-radius: 50px;
+            font-weight: 700;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s;
+            border: 2px solid var(--primary-gold);
+        }
+
+        .btn-gold:hover {
+            background: transparent;
+            color: var(--primary-gold);
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: white;
+            padding: 15px 35px;
+            border-radius: 50px;
+            font-weight: 700;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s;
+            border: 2px solid #333;
+        }
+
+        .btn-outline:hover {
+            border-color: white;
+            background: white;
+            color: black;
+        }
+
+        /* SEO Section */
+        .seo-box {
+            background: #111;
+            padding: 60px;
+            border-radius: 16px;
+            border-left: 4px solid var(--primary-gold);
+        }
+
+        @media (max-width: 768px) {
+            .hero-title {
+                font-size: 2.5rem;
+            }
+
+            .seo-box {
+                padding: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-glass fixed-top">
+            <div class="container">
+                <a class="navbar-brand logo-container" href="/" aria-label="Puadh Podcast Homepage">
+                    <img src="/img/logo.webp" alt="Puadh Podcast Logo" width="60" height="60" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/episodes">Episodes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-puadh" href="/clips">⚡ Clips</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contact">Contact us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/about-us">About Puadh</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/blog/">Blog</a>
+                        </li>
+                    </ul>
+
+                    <div
+                        class="d-flex flex-column flex-lg-row gap-3 justify-content-center align-items-center mt-3 mt-lg-0">
+                        <a href="https://www.youtube.com/channel/UC-CdiL2JN2GjV08p3ixs-HA"
+                            class="btn-custom btn-youtube" aria-label="Visit YouTube Channel">
+                            <i class="fab fa-youtube"></i> YouTube
+                        </a>
+                        <a href="https://open.spotify.com/show/4S1Lqp4l1Huu1MZJuKibcV" class="btn-custom btn-spotify"
+                            aria-label="Listen on Spotify">
+                            <i class="fab fa-spotify"></i> Listen Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <nav class="hero-section">
+        <div class="container">
+            <div class="hero-subtitle">
+                <i class="fa-solid fa-bolt me-2"></i> Motivation • Strategy • Success
+            </div>
+            <h1 class="hero-title">
+                The #1 <span class="text-gold">Punjabi Entrepreneur</span> Podcast
+            </h1>
+            <p
+                style="color: #ccc; font-size: 1.3rem; margin-bottom: 40px; max-width: 700px; margin-left: auto; margin-right: auto;">
+                Discover raw, unscripted stories of business leaders from the Puadh region and across Punjab.
+                Learn how they built their empires, faced failures, and achieved success.
+            </p>
+            <div class="d-flex justify-content-center gap-3 flex-wrap">
+                <a href="#featured-episodes" class="btn-gold">
+                    Listen to Stories <i class="fa-solid fa-play ms-2"></i>
+                </a>
+                <a href="https://open.spotify.com/show/4S1Lqp4l1Huu1MZJuKibcV" target="_blank" class="btn-outline">
+                    <i class="fa-brands fa-spotify me-2"></i> Spotify
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- WHY LISTEN SECTION -->
+    <section style="padding: 100px 0; background: #0a0a0a;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <h2 style="font-weight: 800; font-size: 2.5rem; margin-bottom: 30px;">
+                        Why Entrepreneurs Listen to <br><span class="text-gold">Puadh Podcast</span>
+                    </h2>
+
+                    <div class="d-flex mb-4">
+                        <div class="me-4">
+                            <div class="icon-box" style="width: 50px; height: 50px; font-size: 1.5rem;">
+                                <i class="fa-solid fa-briefcase"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h4 style="font-weight: 700; font-size: 1.2rem;">Unfiltered Business Realities</h4>
+                            <p style="color: #999; margin: 0;">We don't do scripted PR interviews. We talk about the
+                                real money, real struggles, and actual strategies used by Punjabi businessmen.</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex mb-4">
+                        <div class="me-4">
+                            <div class="icon-box" style="width: 50px; height: 50px; font-size: 1.5rem;">
+                                <i class="fa-solid fa-language"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h4 style="font-weight: 700; font-size: 1.2rem;">Authentic Puadhi Dialect</h4>
+                            <p style="color: #999; margin: 0;">Connect with your roots. Business wisdom delivered in the
+                                raw, authentic tone of the Puadh region (Chandigarh, Mohali, Patiala).</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex">
+                        <div class="me-4">
+                            <div class="icon-box" style="width: 50px; height: 50px; font-size: 1.5rem;">
+                                <i class="fa-solid fa-chart-line"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h4 style="font-weight: 700; font-size: 1.2rem;">Diverse Industries</h4>
+                            <p style="color: #999; margin: 0;">From IT Startups in Mohali to Real Estate tycoons and
+                                modern Agriculture. We cover every aspect of the Punjab economy.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div
+                        style="background: #111; padding: 40px; border-radius: 16px; border: 1px solid #222; text-align: center; position: relative;">
+                        <i class="fa-solid fa-quote-left"
+                            style="color: #222; font-size: 4rem; position: absolute; top: 20px; left: 20px;"></i>
+                        <h3 class="text-gold" style="font-size: 3rem; font-weight: 800; margin-bottom: 10px;">29+</h3>
+                        <p style="font-size: 1.2rem; color: white; font-weight: 600;">Episodes Released</p>
+                        <hr style="border-color: #333; margin: 20px 0;">
+                        <p style="color: #888;">Featuring Founders, CEOs & Thought Leaders from Punjab & India.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURED EPISODES -->
+    <section id="featured-episodes" style="padding: 100px 0; background: #050505;">
+        <div class="container">
+            <h2 style="text-align: center; font-weight: 800; margin-bottom: 60px;">Featured <span
+                    class="text-gold">Business Stories</span></h2>
+
+            <div class="row g-4">
+                <!-- Card 1 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="episode-card p-4">
+                        <div>
+                            <span class="episode-badge badge-tech">Technology</span>
+                            <h4 style="font-weight: 700; margin-bottom: 5px;">IT Business Journey</h4>
+                            <p style="color: #666; font-size: 0.9rem; margin-bottom: 15px;">Ep 24: Rajesh Kumar</p>
+                            <p style="color: #ccc; font-size: 1rem; line-height: 1.6;">A journey from floppy disks to
+                                cloud computing. How to build an IT business in Punjab's changing landscape.</p>
+                        </div>
+                        <a href="/episode/ep24-it-journey" class="text-gold"
+                            style="text-decoration: none; font-weight: 700; margin-top: auto; display: inline-flex; align-items: center;">
+                            Listen Now <i class="fa-solid fa-arrow-right ms-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="episode-card p-4">
+                        <div>
+                            <span class="episode-badge badge-realestate">Real Estate</span>
+                            <h4 style="font-weight: 700; margin-bottom: 5px;">Property & Wealth</h4>
+                            <p style="color: #666; font-size: 0.9rem; margin-bottom: 15px;">Ep 23: Anshul Bansal</p>
+                            <p style="color: #ccc; font-size: 1rem; line-height: 1.6;">Investment secrets in the Puadh
+                                region. How to analyze the market in Mohali and Chandigarh.</p>
+                        </div>
+                        <a href="/episode/ep23-real-estate" class="text-gold"
+                            style="text-decoration: none; font-weight: 700; margin-top: auto; display: inline-flex; align-items: center;">
+                            Listen Now <i class="fa-solid fa-arrow-right ms-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="episode-card p-4">
+                        <div>
+                            <span class="episode-badge badge-agri">Economy</span>
+                            <h4 style="font-weight: 700; margin-bottom: 5px;">Farming Economics</h4>
+                            <p style="color: #666; font-size: 0.9rem; margin-bottom: 15px;">Ep 1: Dr. Navneet Sharma</p>
+                            <p style="color: #ccc; font-size: 1rem; line-height: 1.6;">Understanding the business of
+                                agriculture and the socio-political impact on Punjab's economy.</p>
+                        </div>
+                        <a href="/episode/ep1-navneet-sharma" class="text-gold"
+                            style="text-decoration: none; font-weight: 700; margin-top: auto; display: inline-flex; align-items: center;">
+                            Listen Now <i class="fa-solid fa-arrow-right ms-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 50px;">
+                <a href="/episodes" class="btn-outline">View All Entrepreneur Episodes</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEO CONTENT BLOCK -->
+    <section style="padding: 80px 0; background: #0a0a0a;">
+        <div class="container" style="max-width: 900px;">
+            <div class="seo-box">
+                <h3 style="font-weight: 700; margin-bottom: 20px;">The Rise of Punjabi Entrepreneurship <i
+                        class="fa-solid fa-arrow-trend-up ms-2 text-gold"></i></h3>
+                <p style="color: #ccc; line-height: 1.8; margin-bottom: 20px; font-size: 1.1rem;">
+                    Punjab has always been a land of enterprise. From the traditional mandis to the high-tech towers of
+                    Mohali IT Park, the <strong>Punjabi entrepreneur</strong> is known for resilience and risk-taking.
+                    However, most business content is in English or Hindi.
+                </p>
+                <p style="color: #ccc; line-height: 1.8; margin-bottom: 0; font-size: 1.1rem;">
+                    <strong>Puadh Punjabi Podcast</strong> fills this gap. We are the premier audio destination for
+                    anyone looking for a <em>Punjabi business podcast</em>. Whether you are a student in Chandigarh
+                    wanting to launch a startup, or a shop owner in Ropar looking to expand, these stories will provide
+                    the blueprint for your success.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <section style="background: #000; padding: 60px 0; text-align: center; border-top: 1px solid #222;">
+        <div class="container">
+            <h2 style="font-weight: 700; margin-bottom: 20px;">Start Your Journey Today</h2>
+            <p style="color: #888; margin-bottom: 40px;">Subscribe to the #1 Punjabi Entrepreneur Podcast</p>
+
+            <div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; margin-bottom: 40px;">
+                <a href="https://open.spotify.com/show/4S1Lqp4l1Huu1MZJuKibcV"
+                    style="color: #1DB954; font-size: 2rem; transition: transform 0.2s;"
+                    onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"><i
+                        class="fa-brands fa-spotify"></i></a>
+                <a href="https://www.youtube.com/@puadhpunjabipodcast"
+                    style="color: #FF0000; font-size: 2rem; transition: transform 0.2s;"
+                    onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"><i
+                        class="fa-brands fa-youtube"></i></a>
+                <a href="https://podcasts.apple.com/in/podcast/punjabi-podcast/id1702326740" style="color: #fff; font-size: 2rem; transition: transform 0.2s;"
+                    onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"><i
+                        class="fa-solid fa-podcast"></i></a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-5 text-center text-lg-start">
+                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start gap-3 mb-3">
+                        <img src="/img/logo.webp" alt="Puadh Punjabi Podcast Logo" width="60" height="60"
+                            class="rounded-circle border border-secondary" />
+                        <p class="h5 m-0 text-white fw-bold">Puadh Podcast Studio</p>
+                    </div>
+                    <p class="small text-secondary mx-auto mx-lg-0 mb-3" style="max-width: 300px">
+                        The #1 Podcast representing the Puadh region. Unfiltered,
+                        Unscripted, Unapologetic.
+                    </p>
+
+                    <!-- FIXED FOR SEO: ADDED YOUR ADDRESS TO THE FOOTER -->
+                    <div class="small text-secondary mx-auto mx-lg-0" style="max-width: 300px">
+                        <i class="fas fa-map-marker-alt text-white me-2"></i> Plot F-298, R&R Tower, Phase 8B,
+                        Industrial Area,
+                        Sector 74, Mohali, Punjab 160055<br><br>
+                        <i class="fas fa-phone-alt text-white me-2"></i> +91 83607 69451
+                    </div>
+                </div>
+
+                <div class="col-6 col-lg-2 mb-4">
+                    <p class="h5 text-white mb-3 fw-bold">Quick Links</p>
+                    <ul class="list-unstyled d-flex flex-column gap-2">
+                        <li><a href="/episodes">Episodes</a></li>
+                        <li><a href="/about-us">About Host</a></li>
+                        <li><a href="/contact">Contact us</a></li>
+                        <li><a href="/blog/">Blog</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="col-6 col-lg-3 mb-4">
+                    <p class="h5 text-white mb-3 fw-bold">Follow Us</p>
+                    <div class="social-icons d-flex flex-wrap gap-2 justify-content-center justify-content-lg-start">
+                        <a href="https://www.instagram.com/puadhpunjabipodcast/" aria-label="Instagram"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/918360769451" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.youtube.com/@puadhpunjabipodcast" aria-label="YouTube"><i
+                                class="fab fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=61573903336128" aria-label="Facebook"><i
+                                class="fab fa-facebook"></i></a>
+                        <a href="https://x.com/PuadhP37620" aria-label="Twitter X"><i class="fab fa-x-twitter"></i></a>
+                        <a href="https://open.spotify.com/show/4S1Lqp4l1Huu1MZJuKibcV" aria-label="Spotify"><i
+                                class="fab fa-spotify"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 mt-2 mt-lg-0 text-center text-lg-start">
+                    <p class="h5 text-white mb-3 fw-bold">Join the Squad</p>
+                    <form class="mt-3 position-relative">
+                        <input type="email" class="form-control cta-section border-secondary text-white mb-2 py-2"
+                            placeholder="Email Address" aria-label="Email Address for Newsletter" />
+                        <button class="btn btn-spotify w-100 fw-bold py-2">
+                            Subscribe
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="text-center mt-5 pt-4 border-top border-secondary">
+                <p class="small text-secondary mb-0">
+                    &copy; 2026 Puadh Punjabi Podcast Studio. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
