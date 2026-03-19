@@ -4,14 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta name="robots" content="index, follow" />
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
     <!-- SEO OPTIMIZED TITLE & DESCRIPTION -->
     <title>#1 Punjabi Entrepreneur Podcast | Real Business Stories & Startups</title>
     <meta name="description"
         content="Listen to the top-rated Punjabi Entrepreneur Podcast. Authentic, unscripted business stories, startup journeys, and success secrets from Punjab's best minds. Hosted in Puadhi dialect.">
     <meta name="keywords"
         content="Punjabi entrepreneur podcast, business podcast punjab, punjabi startup stories, chandigarh entrepreneurs, business motivation in punjabi, ludhiana business">
-
+    <link rel="canonical" href="https://puadhpunjabipodcast.com/punjabi-entrepreneur-podcast.html" />
     <!-- OPEN GRAPH -->
     <meta property="og:title" content="The #1 Punjabi Entrepreneur Podcast">
     <meta property="og:description" content="Real stories of struggle and success from Punjab's business leaders.">
@@ -20,21 +21,59 @@
 
     <!-- SCHEMA MARKUP -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "PodcastSeries",
-      "name": "Puadh Punjabi Podcast",
-      "url": "https://puadhpunjabipodcast.com/punjabi-entrepreneur-podcast",
-      "description": "The premier podcast for Punjabi entrepreneur stories and business insights.",
-      "inLanguage": "pa-IN",
-      "genre": "Business",
-      "author": {
-        "@type": "Person",
-        "name": "Gurinder Singh Dhanoa"
-      }
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "The #1 Punjabi Entrepreneur Podcast",
+    "description": "Puadh Punjabi Podcast features 29+ unscripted business stories from Punjab entrepreneurs in authentic Puadhi dialect.",
+    "url": "https://puadhpunjabipodcast.com/punjabi-entrepreneur-podcast.html",
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://puadhpunjabipodcast.com" },
+        { "@type": "ListItem", "position": 2, "name": "Punjabi Entrepreneur Podcast", "item": "https://puadhpunjabipodcast.com/punjabi-entrepreneur-podcast.html" }
+      ]
     }
-    </script>
-
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is there a Punjabi podcast about entrepreneurs?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes — Puadh Punjabi Podcast is the premier Punjabi entrepreneur podcast. It features 29+ unscripted interviews with founders, investors, IT professionals, and business leaders from Punjab, all in the authentic Puadhi dialect."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Which industries are covered in the Punjabi business podcast?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Episodes cover IT startups in Mohali, real estate investment in Punjab and Dubai, hotel and food business, ecommerce, farming technology, NRI career stories from Qatar and Canada, and digital marketing."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Where can I listen to the Punjabi entrepreneur podcast?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Puadh Punjabi Podcast is available on Spotify, Apple Podcasts, YouTube, and at puadhpunjabipodcast.com/episodes/."
+        }
+      }
+    ]
+  }
+]
+</script>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@PuadhP37620">
+    <meta name="twitter:title" content="The #1 Punjabi Entrepreneur Podcast — Puadh Punjabi Podcast">
+    <meta name="twitter:description"
+        content="Real unscripted business stories from Punjab's entrepreneurs in authentic Puadhi dialect.">
+    <meta name="twitter:image" content="https://puadhpunjabipodcast.com/img/social-share-image.jpg">
     <!-- FONTS & ICONS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -43,7 +82,15 @@
     <link rel="stylesheet" href="/css/style.css">
     <!-- STYLES -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-K2DN29GZ');</script>
     <style>
         :root {
             --primary-gold: #FDB515;
@@ -248,6 +295,8 @@
 </head>
 
 <body>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K2DN29GZ" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
     <header>
         <nav class="navbar navbar-expand-lg navbar-glass fixed-top">
             <div class="container">
@@ -262,16 +311,16 @@
                 <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-center">
                         <li class="nav-item">
-                            <a class="nav-link" href="/episodes">Episodes</a>
+                            <a class="nav-link" href="/episodes/">Episodes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-puadh" href="/clips">⚡ Clips</a>
+                            <a class="nav-link text-puadh" href="/clips/">⚡ Clips</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/contact">Contact us</a>
+                            <a class="nav-link" href="/contact/">Contact us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/about-us">About Puadh</a>
+                            <a class="nav-link" href="/about-us/">About Puadh</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/blog/">Blog</a>
@@ -295,7 +344,7 @@
     </header>
 
     <!-- HERO SECTION -->
-    <nav class="hero-section">
+    <section class="hero-section">
         <div class="container">
             <div class="hero-subtitle">
                 <i class="fa-solid fa-bolt me-2"></i> Motivation • Strategy • Success
@@ -317,7 +366,7 @@
                 </a>
             </div>
         </div>
-    </nav>
+    </section>
 
     <!-- WHY LISTEN SECTION -->
     <section style="padding: 100px 0; background: #0a0a0a;">
@@ -443,9 +492,17 @@
             </div>
 
             <div style="text-align: center; margin-top: 50px;">
-                <a href="/episodes" class="btn-outline">View All Entrepreneur Episodes</a>
+                <a href="/episodes/" class="btn-outline">View All Entrepreneur Episodes</a>
             </div>
         </div>
+        <p class="card-text text-muted small mb-3">
+            <strong>The Achievement:</strong> Conquered the reality TV world and successfully transitioned into building
+            a sustainable digital brand empire.
+            <br><strong>Key Insight:</strong> Staying relevant isn't about following trends, it's about authentic
+            community building and diversifying income streams.
+            <br><strong>Who Should Listen:</strong> Aspiring influencers, digital marketers, and anyone looking to
+            monetize their personal brand.
+        </p>
     </section>
 
     <!-- SEO CONTENT BLOCK -->
@@ -484,7 +541,8 @@
                     style="color: #FF0000; font-size: 2rem; transition: transform 0.2s;"
                     onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"><i
                         class="fa-brands fa-youtube"></i></a>
-                <a href="https://podcasts.apple.com/in/podcast/punjabi-podcast/id1702326740" style="color: #fff; font-size: 2rem; transition: transform 0.2s;"
+                <a href="https://podcasts.apple.com/in/podcast/punjabi-podcast/id1702326740"
+                    style="color: #fff; font-size: 2rem; transition: transform 0.2s;"
                     onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"><i
                         class="fa-solid fa-podcast"></i></a>
             </div>
@@ -516,11 +574,14 @@
                 <div class="col-6 col-lg-2 mb-4">
                     <p class="h5 text-white mb-3 fw-bold">Quick Links</p>
                     <ul class="list-unstyled d-flex flex-column gap-2">
-                        <li><a href="/episodes">Episodes</a></li>
-                        <li><a href="/about-us">About Host</a></li>
-                        <li><a href="/contact">Contact us</a></li>
+                        <li><a href="/episodes/">Episodes</a></li>
+                        <li><a href="/about-us/">About Host</a></li>
+                        <li><a href="/contact/">Contact us</a></li>
                         <li><a href="/blog/">Blog</a></li>
-
+                        <li><a href="/best-punjabi-podcast">Best Punjabi Podcast</a></li>
+                        <li><a href="/punjabi-entrepreneur-podcast">Entrepreneur Podcast</a></li>
+                        <li><a href="/puadh-region">Puadh Region</a></li>
+                        <li><a href="/chandigarh-podcast">Chandigarh Podcast</a></li>
                     </ul>
                 </div>
 

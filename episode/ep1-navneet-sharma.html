@@ -46,7 +46,7 @@
           'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-K2DN29GZ');</script>
   <!-- End Google Tag Manager -->
-
+  <link rel="stylesheet" href="/css/episode.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
@@ -55,6 +55,17 @@
 
   <!-- Consolidated Styles -->
   <link rel="stylesheet" href="/css/style.css" />
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://puadhpunjabipodcast.com" },
+    { "@type": "ListItem", "position": 2, "name": "Episodes", "item": "https://puadhpunjabipodcast.com/episodes/" },
+    { "@type": "ListItem", "position": 3, "name": "Dark Reality of Migration — Dr. Navneet Sharma", "item": "https://puadhpunjabipodcast.com/episode/ep1-navneet-sharma" }
+  ]
+}
+</script>
   <style>
     /* Specific Hero Style for this Episode */
     .hero-section-episode {
@@ -117,9 +128,52 @@
         "duration": "PT42M",
         "contentUrl": "https://www.youtube.com/watch?v=fhRIqX6bEiA",
         "embedUrl": "https://www.youtube.com/embed/fhRIqX6bEiA"
-    }
+    },
+      "mainEntityOfPage": {
+  "@type": "WebPage",
+  "@id": "https://puadhpunjabipodcast.com/episode/ep1-navneet-sharma"
+},
+"contributor": {
+  "@type": "Person",
+  "name": "Dr. Navneet Sharma",
+  "jobTitle": "Guest"
+},
+"associatedMedia": {
+  "@type": "MediaObject",
+  "contentUrl": "https://puadhpunjabipodcast.com/audio/ep1.mp3",
+  "encodingFormat": "audio/mpeg"
+},
+"publisher": {
+  "@type": "Organization",
+  "name": "Puadh Punjabi Podcast",
+  "url": "https://puadhpunjabipodcast.com"
+}
   ]
   </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What does Dr. Navneet Sharma discuss in Puadh Podcast Episode 1?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dr. Navneet Sharma discusses the harsh reality of Canada student visas, migration scams targeting Punjab youth, the brain drain crisis, AI's impact on jobs, and why the Indian education system fails students."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Canada a good option for Punjabi students?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In this episode, Dr. Navneet Sharma explains the growing challenges with Canada student visas, post-study work permits, and the reality of the job market — suggesting that skill development in India may be a better path for many."
+      }
+    }
+  ]
+}
+</script>
 </head>
 
 
@@ -137,7 +191,7 @@
           <img src="/img/logo.webp" width="40" height="40" alt="Logo" alt="Puadh Punjabi Podcast Logo" />
         </a>
 
-        <a href="/episodes" class="btn btn-outline-light btn-sm rounded-pill px-3">
+        <a href="/episodes/" class="btn btn-outline-light btn-sm rounded-pill px-3">
           <i class="fas fa-arrow-left me-2"></i> All Episodes
         </a>
       </div>
@@ -145,7 +199,7 @@
   </header>
 
   <main>
-    <section class="hero-section">
+    <section class="hero-section-episode">
       <div class="container">
         <div class="col-lg-8">
           <span class="badge-ep">EPISODE #1</span>
