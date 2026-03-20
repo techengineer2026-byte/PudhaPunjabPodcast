@@ -9,7 +9,7 @@
     </url>
 
     <url>
-        <loc>https://puadhpunjabipodcast.com/episodes/</loc>
+        <loc>https://puadhpunjabipodcast.com/episodes</loc>
         <lastmod>2026-03-18</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.90</priority>
@@ -23,7 +23,7 @@
     </url>
 
     <url>
-        <loc>https://puadhpunjabipodcast.com/clips/</loc>
+        <loc>https://puadhpunjabipodcast.com/clips</loc>
         <lastmod>2026-03-18</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.85</priority>
@@ -65,14 +65,14 @@
     </url>
 
     <url>
-        <loc>https://puadhpunjabipodcast.com/about-us/</loc>
+        <loc>https://puadhpunjabipodcast.com/about-us</loc>
         <lastmod>2026-03-18</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.70</priority>
     </url>
 
     <url>
-        <loc>https://puadhpunjabipodcast.com/contact/</loc>
+        <loc>https://puadhpunjabipodcast.com/contact</loc>
         <lastmod>2026-03-18</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.70</priority>

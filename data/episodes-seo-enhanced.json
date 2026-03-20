@@ -9,7 +9,7 @@
     "topics": ["Entertainment Industry", "Child Artistes", "Career Growth", "Showbiz"],
     "duration": 2400,
     "publishDate": "2024-01-15",
-    "imageUrl": "img/thumbnails/ep29-savage-seerat-kid-actress-outsmarts-the-host.jpg",
+    "imageUrl": "/img/thumbnails/ep29-savage-seerat-kid-actress-outsmarts-the-host.jpg",
     "youtubeUrl": "https://www.youtube.com/watch?v=jsTVsBW1l7g",
     "audioUrl": "audio/ep29.mp3",
     "explicit": false
@@ -24,7 +24,7 @@
     "topics": ["Entrepreneurship", "Technology", "Business Strategy", "Digital Economy"],
     "duration": 3600,
     "publishDate": "2024-01-08",
-    "imageUrl": "img/thumbnails/ep28-vikram-entrepreneur-tech-investor-shares-business-insights.jpg",
+    "imageUrl": "/img/thumbnails/ep28-vikram-entrepreneur-tech-investor-shares-business-insights.jpg",
     "youtubeUrl": "https://www.youtube.com/watch?v=MxkcfD5tZn8",
     "audioUrl": "audio/ep28.mp3",
     "explicit": false
@@ -39,7 +39,7 @@
     "topics": ["Finance", "Wealth Creation", "Investment Strategy", "Mindset"],
     "duration": 3300,
     "publishDate": "2024-01-01",
-    "imageUrl": "img/thumbnails/ep27-mindset-of-rich-people-buy-borrow-die-strategy.jpg",
+    "imageUrl": "/img/thumbnails/ep27-mindset-of-rich-people-buy-borrow-die-strategy.jpg",
     "youtubeUrl": "https://www.youtube.com/watch?v=lKTid7MMYYU",
     "audioUrl": "audio/ep27.mp3",
     "explicit": false
@@ -54,7 +54,7 @@
     "topics": ["Personal Development", "Psychology", "Success Mindset", "Manifestation"],
     "duration": 3000,
     "publishDate": "2023-12-25",
-    "imageUrl": "img/thumbnails/ep26-the-science-of-manifestation-attract-success.jpg",
+    "imageUrl": "/img/thumbnails/ep26-the-science-of-manifestation-attract-success.jpg",
     "youtubeUrl": "https://www.youtube.com/watch?v=N_c3_b87tes",
     "audioUrl": "audio/ep26.mp3",
     "explicit": false
@@ -69,7 +69,7 @@
     "topics": ["Career", "IT Jobs", "International Employment", "Lifestyle"],
     "duration": 2700,
     "publishDate": "2023-12-18",
-    "imageUrl": "img/thumbnails/ep25-software-engineer-job-in-doha-salary-lifestyle.jpg",
+    "imageUrl": "/img/thumbnails/ep25-software-engineer-job-in-doha-salary-lifestyle.jpg",
     "youtubeUrl": "https://www.youtube.com/watch?v=lGXvqDtw72Q",
     "audioUrl": "audio/ep25.mp3",
     "explicit": false
@@ -84,7 +84,7 @@
     "topics": ["Technology", "Career Development", "Job Search", "IT Industry"],
     "duration": 3200,
     "publishDate": "2023-12-11",
-    "imageUrl": "img/thumbnails/ep24-it-evolution-job-hunting-2025.jpg",
+    "imageUrl": "/img/thumbnails/ep24-it-evolution-job-hunting-2025.jpg",
     "youtubeUrl": "https://www.youtube.com/watch?v=juB1D78uWZ8",
     "audioUrl": "audio/ep24.mp3",
     "explicit": false
@@ -99,7 +99,7 @@
     "topics": ["Real Estate", "Investment", "Property Market", "Business"],
     "duration": 3400,
     "publishDate": "2023-12-04",
-    "imageUrl": "img/thumbnails/ep23-anshul-bansal-real-estate-investment-punjab-dubai.jpg",
+    "imageUrl": "/img/thumbnails/ep23-anshul-bansal-real-estate-investment-punjab-dubai.jpg",
     "youtubeUrl": "https://www.youtube.com/watch?v=3tCZEjqOuYg",
     "audioUrl": "audio/ep23.mp3",
     "explicit": false
@@ -114,7 +114,7 @@
     "topics": ["Social Impact", "Education", "Community Service", "Women Leadership"],
     "duration": 2900,
     "publishDate": "2023-11-27",
-    "imageUrl": "img/thumbnails/ep22-gurinder-gauri-mrs-chandigarh-education-social-work.jpg",
+    "imageUrl": "/img/thumbnails/ep22-gurinder-gauri-mrs-chandigarh-education-social-work.jpg",
     "youtubeUrl": "https://www.youtube.com/watch?v=If4RgcDfr4o",
     "audioUrl": "audio/ep22.mp3",
     "explicit": false
@@ -129,7 +129,7 @@
     "topics": ["Technology", "Lifestyle", "AI & Automation", "Urban Living"],
     "duration": 3100,
     "publishDate": "2023-11-20",
-    "imageUrl": "img/thumbnails/ep21-sheena-dhawan-life-in-delhi-vs-mohali-ai-impact.jpg",
+    "imageUrl": "/img/thumbnails/ep21-sheena-dhawan-life-in-delhi-vs-mohali-ai-impact.jpg",
     "youtubeUrl": "https://www.youtube.com/watch?v=ewupEpHJ8gI",
     "audioUrl": "audio/ep21.mp3",
     "explicit": false
@@ -144,7 +144,7 @@
     "topics": ["Crime & Justice", "Law Enforcement", "True Crime", "Social Issues"],
     "duration": 3500,
     "publishDate": "2023-11-13",
-    "imageUrl": "img/thumbnails/ep20-brutal-crime-confessions-punjab-police-sis.jpg",
+    "imageUrl": "/img/thumbnails/ep20-brutal-crime-confessions-punjab-police-sis.jpg",
     "youtubeUrl": "https://www.youtube.com/watch?v=fUrRC8iksMw",
     "audioUrl": "audio/ep20.mp3",
     "explicit": true
@@ -159,7 +159,7 @@
     "topics": ["Music Industry", "Punjabi Culture", "Entertainment", "Artist Life"],
     "duration": 3300,
     "publishDate": "2023-11-06",
-    "imageUrl": "img/thumbnails/ep19-gurjeet-mattaur-punjabi-singers-te-.jpg",
+    "imageUrl": "/img/thumbnails/ep19-gurjeet-mattaur-punjabi-singers-te-.jpg",
     "youtubeUrl": "https://www.youtube.com/watch?v=K8U1Nf7HlCc",
     "audioUrl": "audio/ep19.mp3",
     "explicit": false
@@ -174,7 +174,7 @@
     "topics": ["Business", "Agriculture", "Technology", "Entrepreneurship"],
     "duration": 3200,
     "publishDate": "2023-10-30",
-    "imageUrl": "img/thumbnails/ep18-akash-from-ecommerce-hustle-to-smart-farming.jpg",
+    "imageUrl": "/img/thumbnails/ep18-akash-from-ecommerce-hustle-to-smart-farming.jpg",
     "youtubeUrl": "https://www.youtube.com/watch?v=n78_bi6lvQg",
     "audioUrl": "audio/ep18.mp3",
     "explicit": false
@@ -189,7 +189,7 @@
     "topics": ["Digital Business", "Marketing", "Media", "Entrepreneurship"],
     "duration": 3400,
     "publishDate": "2023-10-23",
-    "imageUrl": "img/thumbnails/ep17-satwinder-singh-news-channel-sales-to-digital-empire.jpg",
+    "imageUrl": "/img/thumbnails/ep17-satwinder-singh-news-channel-sales-to-digital-empire.jpg",
     "youtubeUrl": "https://www.youtube.com/watch?v=TgwRb2Rv-uE",
     "audioUrl": "audio/ep17.mp3",
     "explicit": false
@@ -204,7 +204,7 @@
     "topics": ["Healthcare", "Women Leadership", "Career Development", "Work-Life Balance"],
     "duration": 2800,
     "publishDate": "2023-10-16",
-    "imageUrl": "img/thumbnails/ep16-dr-parvinder-kaur-balancing-family-passion-profession.jpg",
+    "imageUrl": "/img/thumbnails/ep16-dr-parvinder-kaur-balancing-family-passion-profession.jpg",
     "youtubeUrl": "https://www.youtube.com/watch?v=jzVCJubqdXo",
     "audioUrl": "audio/ep16.mp3",
     "explicit": false
@@ -219,7 +219,7 @@
     "topics": ["Technology", "Programming", "Career Development", "IT Skills"],
     "duration": 2600,
     "publishDate": "2023-10-09",
-    "imageUrl": "img/thumbnails/ep15-jobanjeet-singh-journey-of-a-coder.jpg",
+    "imageUrl": "/img/thumbnails/ep15-jobanjeet-singh-journey-of-a-coder.jpg",
     "youtubeUrl": "https://www.youtube.com/watch?v=5trn3YOA8i4",
     "audioUrl": "audio/ep15.mp3",
     "explicit": false
@@ -234,7 +234,7 @@
     "topics": ["Spirituality", "Science", "Psychology", "Cultural Beliefs"],
     "duration": 3000,
     "publishDate": "2023-10-02",
-    "imageUrl": "img/thumbnails/ep14-manish-shahi-faith-or-fraud-astrology-myths.jpg",
+    "imageUrl": "/img/thumbnails/ep14-manish-shahi-faith-or-fraud-astrology-myths.jpg",
     "youtubeUrl": "https://www.youtube.com/watch?v=ZnuV_W9GFS0",
     "audioUrl": "audio/ep14.mp3",
     "explicit": false
@@ -249,7 +249,7 @@
     "topics": ["Music", "Entertainment", "Career", "Industry Insights"],
     "duration": 3100,
     "publishDate": "2023-09-25",
-    "imageUrl": "img/thumbnails/ep13-passion-ya-paisa-dark-reality-of-music-industry.jpg",
+    "imageUrl": "/img/thumbnails/ep13-passion-ya-paisa-dark-reality-of-music-industry.jpg",
     "youtubeUrl": "https://www.youtube.com/watch?v=Z2NKIarYRFI",
     "audioUrl": "audio/ep13.mp3",
     "explicit": true
@@ -264,7 +264,7 @@
     "topics": ["Education", "Social Impact", "Women Leadership", "Teaching"],
     "duration": 2900,
     "publishDate": "2023-09-18",
-    "imageUrl": "img/thumbnails/ep12-ms-navneet-sharma-teacher-to-trailblazer.jpg",
+    "imageUrl": "/img/thumbnails/ep12-ms-navneet-sharma-teacher-to-trailblazer.jpg",
     "youtubeUrl": "https://www.youtube.com/watch?v=in6BKo7X8Ds",
     "audioUrl": "audio/ep12.mp3",
     "explicit": false
@@ -279,7 +279,7 @@
     "topics": ["Dance & Culture", "Punjabi Arts", "Entertainment", "Career Growth"],
     "duration": 2700,
     "publishDate": "2023-09-11",
-    "imageUrl": "img/thumbnails/ep11-kamal-jeet-singh-from-college-to-career-bhangra.jpg",
+    "imageUrl": "/img/thumbnails/ep11-kamal-jeet-singh-from-college-to-career-bhangra.jpg",
     "youtubeUrl": "https://www.youtube.com/watch?v=9yIoeblfLhE",
     "audioUrl": "audio/ep11.mp3",
     "explicit": false
@@ -294,7 +294,7 @@
     "topics": ["Career", "Lifestyle", "Entrepreneurship", "Life Choices"],
     "duration": 3200,
     "publishDate": "2023-09-04",
-    "imageUrl": "img/thumbnails/ep10-rajvinder-singh-corporate-to-cab-driver-journey.jpg",
+    "imageUrl": "/img/thumbnails/ep10-rajvinder-singh-corporate-to-cab-driver-journey.jpg",
     "youtubeUrl": "https://www.youtube.com/watch?v=bcVTMvt5F6A",
     "audioUrl": "audio/ep10.mp3",
     "explicit": false
@@ -309,7 +309,7 @@
     "topics": ["Politics", "Elections", "Strategy", "Social Issues"],
     "duration": 3300,
     "publishDate": "2023-08-28",
-    "imageUrl": "img/thumbnails/ep9-election-strategy-winning-punjab-haryana-himachal.jpg",
+    "imageUrl": "/img/thumbnails/ep9-election-strategy-winning-punjab-haryana-himachal.jpg",
     "youtubeUrl": "https://www.youtube.com/watch?v=OiVJtdqCkeg",
     "audioUrl": "audio/ep9.mp3",
     "explicit": false
@@ -324,7 +324,7 @@
     "topics": ["Business", "Entrepreneurship", "Growth", "Innovation"],
     "duration": 2800,
     "publishDate": "2023-08-21",
-    "imageUrl": "img/thumbnails/ep8-harsimarpreet-singh-baker-to-rental-car-business.jpg",
+    "imageUrl": "/img/thumbnails/ep8-harsimarpreet-singh-baker-to-rental-car-business.jpg",
     "youtubeUrl": "https://www.youtube.com/watch?v=vvfIG99IkHs",
     "audioUrl": "audio/ep8.mp3",
     "explicit": false
@@ -339,7 +339,7 @@
     "topics": ["Business", "Entrepreneurship", "Education", "Career Change"],
     "duration": 2900,
     "publishDate": "2023-08-14",
-    "imageUrl": "img/thumbnails/ep7-gurjeet-kamboj-from-faculty-to-founder.jpg",
+    "imageUrl": "/img/thumbnails/ep7-gurjeet-kamboj-from-faculty-to-founder.jpg",
     "youtubeUrl": "https://www.youtube.com/watch?v=8V0lYYRrPpY",
     "audioUrl": "audio/ep7.mp3",
     "explicit": false
@@ -354,7 +354,7 @@
     "topics": ["Music", "Entertainment", "Career Growth", "Success Stories"],
     "duration": 2700,
     "publishDate": "2023-08-07",
-    "imageUrl": "img/thumbnails/ep6-from-subway-to-singing-jarman-sheikh-journey.jpg",
+    "imageUrl": "/img/thumbnails/ep6-from-subway-to-singing-jarman-sheikh-journey.jpg",
     "youtubeUrl": "https://www.youtube.com/watch?v=PLszc6DiVuM",
     "audioUrl": "audio/ep6.mp3",
     "explicit": false
@@ -369,7 +369,7 @@
     "topics": ["Business", "Entertainment", "Stories", "Urban Tales"],
     "duration": 3100,
     "publishDate": "2023-07-31",
-    "imageUrl": "img/thumbnails/ep5-food-delivery-struggles-chandigarh-university-ghost.jpg",
+    "imageUrl": "/img/thumbnails/ep5-food-delivery-struggles-chandigarh-university-ghost.jpg",
     "youtubeUrl": "https://www.youtube.com/watch?v=ZdNROcivoSw",
     "audioUrl": "audio/ep5.mp3",
     "explicit": false
@@ -384,7 +384,7 @@
     "topics": ["Fitness & Health", "Sports", "Personal Development", "Lifestyle"],
     "duration": 2800,
     "publishDate": "2023-07-24",
-    "imageUrl": "img/thumbnails/ep4-bharat-kaushal-mr-north-india.jpg",
+    "imageUrl": "/img/thumbnails/ep4-bharat-kaushal-mr-north-india.jpg",
     "youtubeUrl": "https://www.youtube.com/watch?v=rjOLiLWZ508",
     "audioUrl": "audio/ep4.mp3",
     "explicit": false
@@ -399,7 +399,7 @@
     "topics": ["Business", "Sales & Marketing", "Entrepreneurship", "Success"],
     "duration": 3400,
     "publishDate": "2023-07-17",
-    "imageUrl": "img/thumbnails/ep3-mr-bhatias-insane-rise-from-cold-calls-to-boardrooms.jpg",
+    "imageUrl": "/img/thumbnails/ep3-mr-bhatias-insane-rise-from-cold-calls-to-boardrooms.jpg",
     "youtubeUrl": "https://www.youtube.com/watch?v=4feVkfsOyvQ",
     "audioUrl": "audio/ep3.mp3",
     "explicit": false
@@ -414,7 +414,7 @@
     "topics": ["Hospitality", "Business", "Service Industry", "Management"],
     "duration": 3000,
     "publishDate": "2023-07-10",
-    "imageUrl": "img/thumbnails/ep2-mr-raman-sharma-hotel-industry-secrets.jpg",
+    "imageUrl": "/img/thumbnails/ep2-mr-raman-sharma-hotel-industry-secrets.jpg",
     "youtubeUrl": "https://www.youtube.com/watch?v=D2rxUfcL49A",
     "audioUrl": "audio/ep2.mp3",
     "explicit": false
@@ -429,7 +429,7 @@
     "topics": ["Agriculture", "Social Issues", "Politics", "Farmer Rights"],
     "duration": 3500,
     "publishDate": "2023-07-03",
-    "imageUrl": "img/thumbnails/ep1-dr-navneet-sharma-farmer-protest-adani-secrets.jpg",
+    "imageUrl": "/img/thumbnails/ep1-dr-navneet-sharma-farmer-protest-adani-secrets.jpg",
     "youtubeUrl": "https://www.youtube.com/watch?v=fhRIqX6bEiA",
     "audioUrl": "audio/ep1.mp3",
     "explicit": false

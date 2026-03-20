@@ -1,10 +1,31 @@
 {
-  "projects": {
-    "default": "puadh-punjabi-podcast"
-  },
   "hosting": {
     "public": ".",
     "cleanUrls": true,
-    "trailingSlash": false
+    "trailingSlash": false,
+    "redirects": [
+      {
+        "source": "**",
+        "has": [
+          {
+            "type": "host",
+            "value": "puadh-punjabi-podcast.web.app"
+          }
+        ],
+        "destination": "https://puadhpunjabipodcast.com",
+        "type": 301
+      },
+      {
+        "source": "**",
+        "has": [
+          {
+            "type": "host",
+            "value": "puadh-punjabi-podcast.firebaseapp.com"
+          }
+        ],
+        "destination": "https://puadhpunjabipodcast.com",
+        "type": 301
+      }
+    ]
   }
 }
