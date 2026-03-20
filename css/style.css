@@ -17,20 +17,6 @@ body {
   overflow-x: hidden;
 }
 
-/* Social Icons */
-.social-icons a {
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  background: #111;
-  color: white;
-  font-size: 18px;
-  text-decoration: none;
-  transition: all 0.3s ease;
-}
 
 /* Accordion Styling */
 .faq-section {
@@ -95,50 +81,103 @@ body {
   margin-bottom: 5px;
 }
 
-/* Hover Effect */
+/* 1. MOBILE DEFAULT (Phones) */
+/* Uses small padding so content fills the screen */
+.footer-padding {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* 2. TABLET (iPads, etc) */
+/* A bit more breathing room */
+@media (min-width: 768px) {
+  .footer-padding {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+/* 3. DESKTOP (Laptops/Monitors) */
+/* The large 12% padding you wanted for the pro look */
+@media (min-width: 1200px) {
+  .footer-padding {
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+}
+
+/* --- Rest of your existing CSS --- */
+footer {
+  background-color: black;
+  color: #999;
+}
+
+footer h4,
+footer h5,
+footer h6 {
+  color: white;
+  font-weight: 700;
+}
+
+footer a {
+  color: #999;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+footer a:hover {
+  color: #f1c40f;
+  padding-left: 5px;
+}
+
+/* Social Icons */
+.social-icons a {
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #111;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: 1px solid #333;
+}
+
 .social-icons a:hover {
+  padding-left: 0;
   background: #f1c40f;
   color: black;
+  border-color: #f1c40f;
   transform: translateY(-3px);
 }
 
-/* Footer Links */
-footer ul li a {
-  color: #bbb;
-  text-decoration: none;
-  transition: 0.3s;
+/* Form & Button */
+.input-group .form-control {
+  background-color: #111;
+  border: 1px solid #444;
+  color: white;
 }
 
-footer ul li a:hover {
-  color: #f1c40f;
-  padding-left: 4px;
+.input-group .form-control:focus {
+  box-shadow: none;
+  border-color: #f1c40f;
+  background-color: #000;
 }
 
-/* Mobile Responsive */
-@media (max-width:768px) {
+.btn-spotify {
+  background-color: #f1c40f;
+  color: black;
+  border: 1px solid #f1c40f;
+  transition: all 0.3s;
+}
 
-  footer {
-    text-align: center;
-  }
-
-  footer ul {
-    align-items: center;
-  }
-
-  .social-icons {
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10px;
-  }
-
-  footer .form-control {
-    text-align: center;
-  }
-
-  footer .row>div {
-    margin-bottom: 25px;
-  }
-
+.btn-spotify:hover {
+  background-color: #d4ac0d;
+  border-color: #d4ac0d;
+  color: black;
 }
 
 .navbar-glass {
@@ -330,28 +369,7 @@ section {
   transform: scale(1.05);
 }
 
-footer {
-  background-color: black;
-  border-top: 1px solid #1a1a1a;
-  padding: 20px 0 10px;
-  color: #888;
-}
 
-footer h5 {
-  color: white;
-  margin-bottom: 20px;
-  font-weight: 600;
-}
-
-footer a {
-  color: #888;
-  text-decoration: none;
-  transition: 0.2s;
-}
-
-footer a:hover {
-  color: var(--accent);
-}
 
 .about-section {
   background-color: #0a0a0a;
