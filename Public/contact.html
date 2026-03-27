@@ -300,15 +300,8 @@
               the form below.</p>
           </div>
 
-          <form action="https://formspree.io/f/mnjgpprk" method="POST">
+          <form id="contact-form">
             <!-- Redirect to thank you page -->
-            <input type="hidden" name="_next" value="https://puadhpunjabipodcast.com/thank-you">
-
-
-
-
-
-
             <!-- Spam Protection -->
             <input type="text" name="_gotcha" style="display:none" />
 
@@ -343,7 +336,7 @@
                   placeholder="Tell us about your story..." required></textarea>
               </div>
               <div class="col-12 mt-4">
-                <button type="submit" class="btn btn-spotify w-100 py-3 fw-bold fs-5">
+                <button type="submit" id="submit-btn" class="btn btn-spotify w-100 py-3 fw-bold fs-5">
                   🚀 Send Message Now
                 </button>
               </div>
@@ -488,6 +481,35 @@
     </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- SUCCESS MODAL (Hidden by default) -->
+  <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content bg-dark text-white border border-secondary">
+
+        <div class="modal-header border-secondary">
+          <h5 class="modal-title" id="successModalLabel">
+            <i class="fas fa-check-circle text-success me-2"></i> Message Sent!
+          </h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+
+        <div class="modal-body text-center py-4">
+          <div class="mb-3">
+            <i class="fas fa-envelope-open-text fa-3x text-accent"></i>
+          </div>
+          <p class="lead">Thank you for contacting Puadh Punjabi Podcast!</p>
+          <p class="small text-secondary">We have received your lead. Our team will contact you shortly via phone or
+            email.</p>
+        </div>
+
+        <div class="modal-footer border-secondary justify-content-center">
+          <button type="button" class="btn btn-spotify fw-bold px-4" data-bs-dismiss="modal">OK, Great!</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <script src="/js/Javascript.js"></script>
 </body>
 
 </html>

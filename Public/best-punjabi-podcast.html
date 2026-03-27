@@ -286,86 +286,122 @@
 
   <!-- ✅ FIX #3: JSON-LD URLs — removed .html, added PodcastSeries, added 2 more FAQs -->
   <!-- ✅ FIX #10: PodcastSeries schema added -->
-  <!-- ✅ FIX #8: 2 more FAQ questions added -->
   <script type="application/ld+json">
-  [
-    {
-      "@context": "https://schema.org",
-      "@type": "WebPage",
-      "name": "Best Punjabi Podcast 2026",
-      "dateModified": "2026-03-18",
-      "description": "Puadh Punjabi Podcast — 29+ unscripted episodes in authentic Puadhi dialect covering culture, NRI life, IT careers, and entrepreneur stories from Punjab.",
-      "url": "https://puadhpunjabipodcast.com/best-punjabi-podcast",
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://puadhpunjabipodcast.com/best-punjabi-podcast",
+        "name": "Best Punjabi Podcast 2026",
+        "dateModified": "2026-03-25",
+        "description": "Puadh Punjabi Podcast — 29+ unscripted episodes in authentic Puadhi dialect covering culture, NRI life, IT careers, and entrepreneur stories from Punjab.",
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://puadhpunjabipodcast.com" },
+            { "@type": "ListItem", "position": 2, "name": "Best Punjabi Podcast", "item": "https://puadhpunjabipodcast.com/best-punjabi-podcast" }
+          ]
+        }
+      },
+      {
+        "@type": "PodcastSeries",
+        "@id": "https://puadhpunjabipodcast.com/#podcast",
+        "name": "Puadh Punjabi Podcast",
+        "url": "https://puadhpunjabipodcast.com",
+        "description": "The best Punjabi podcast dedicated to preserving the Puadhi dialect. 29+ episodes covering culture, NRI life, IT careers, and entrepreneur stories from the Puadh region of Punjab.",
+        "numberOfEpisodes": 29,
+        "startDate": "2024",
+        "inLanguage": "pa",
+        "author": {
+          "@type": "Person",
+          "name": "Gurinder Singh Dhanoa",
+          "url": "https://puadhpunjabipodcast.com/about-us"
+        }
+      },
+      {
+        "@type": "ItemList",
+        "name": "Top 5 Best Punjabi Podcast Episodes",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://puadhpunjabipodcast.com" },
-          { "@type": "ListItem", "position": 2, "name": "Best Punjabi Podcast", "item": "https://puadhpunjabipodcast.com/best-punjabi-podcast" }
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "url": "https://puadhpunjabipodcast.com/episode/ep3-mr-bhatia",
+            "name": "Ep 3: Mr. Bhatia - From Cold Calls to Boardrooms"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "url": "https://puadhpunjabipodcast.com/episode/ep7-gurjeet-kamboj",
+            "name": "Ep 7: Gurjeet Kamboj - Faculty to Founder"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "url": "https://puadhpunjabipodcast.com/episode/ep18-akash-ecommerce",
+            "name": "Ep 18: Akash - Ecommerce to Smart Farming"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "url": "https://puadhpunjabipodcast.com/episode/ep23-real-estate",
+            "name": "Ep 23: Anshul Bansal - Real Estate Investment"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "url": "https://puadhpunjabipodcast.com/episode/ep28-vikram-airbnb-chubara-business-cyber-scam",
+            "name": "Ep 28: Vikram - Tech Investor & Entrepreneur"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the best Punjabi podcast in 2026?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Puadh Punjabi Podcast is a top-rated Punjabi podcast featuring 29+ unscripted episodes about Puadhi culture, NRI lifestyle, IT careers, and entrepreneur stories from Punjab."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Where can I listen to the best Punjabi podcast?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Puadh Punjabi Podcast is available on Spotify, Apple Podcasts, YouTube, and directly at puadhpunjabipodcast.com."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What makes Puadh Punjabi Podcast different from other Punjabi podcasts?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It is the only podcast that covers the Puadh region of Punjab specifically — including Mohali, Ropar, Patiala, and Ambala — in the authentic Puadhi dialect."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who hosts the best Punjabi podcast?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Gurinder Singh Dhanoa from Mohali, Punjab hosts Puadh Punjabi Podcast."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Puadh Punjabi Podcast free to listen?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, Puadh Punjabi Podcast is completely free to listen on every major platform."
+            }
+          }
         ]
       }
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "PodcastSeries",
-      "name": "Puadh Punjabi Podcast",
-      "url": "https://puadhpunjabipodcast.com",
-      "description": "The best Punjabi podcast dedicated to preserving the Puadhi dialect. 29+ episodes covering culture, NRI life, IT careers, and entrepreneur stories from the Puadh region of Punjab.",
-      "numberOfEpisodes": 29,
-      "startDate": "2024",
-      "inLanguage": "pa",
-      "author": {
-        "@type": "Person",
-        "name": "Gurinder Singh Dhanoa",
-        "url": "https://puadhpunjabipodcast.com/about-us"
-      }
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is the best Punjabi podcast in 2026?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Puadh Punjabi Podcast is a top-rated Punjabi podcast featuring 29+ unscripted episodes about Puadhi culture, NRI lifestyle, IT careers, and entrepreneur stories from Punjab. It is the first podcast dedicated to preserving the Puadhi dialect, hosted by Gurinder Singh Dhanoa from Mohali, Punjab, and has accumulated over 1 million total views."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Where can I listen to the best Punjabi podcast?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Puadh Punjabi Podcast is available on Spotify, Apple Podcasts, YouTube, and directly at puadhpunjabipodcast.com. All 29+ episodes are free to listen on every major platform."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What makes Puadh Punjabi Podcast different from other Punjabi podcasts?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "It is the only podcast that covers the Puadh region of Punjab specifically — including Mohali, Ropar, Patiala, and Ambala — in the authentic Puadhi dialect. No scripts, no filters, just real conversations with entrepreneurs, IT professionals, NRIs, and cultural figures from Punjab."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Who hosts the best Punjabi podcast?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Gurinder Singh Dhanoa from Mohali, Punjab hosts Puadh Punjabi Podcast. He launched the show in 2024 after realising no digital platform was documenting Puadhi culture. He works in IT and social media, giving him access to interesting guests from across the Puadh region and beyond."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is Puadh Punjabi Podcast free to listen?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, Puadh Punjabi Podcast is completely free to listen. All episodes are available at no cost on Spotify, YouTube, Apple Podcasts, and the official website puadhpunjabipodcast.com. Spotify Premium users can also download episodes for offline listening."
-          }
-        }
-      ]
-    }
-  ]
+    ]
+  }
   </script>
 </head>
 
@@ -649,26 +685,30 @@
           </div>
         </div>
 
-        <!-- COLUMN 2: CENTER (Links) -->
+        <!-- COLUMN 2: CENTER (UPDATED WITH SEO LINKS) -->
         <div class="col-lg-4 mb-5">
-          <!-- Added ps-lg-5 only for desktop indentation -->
-          <p class="h5 text-white mb-3 fw-bold ps-lg-5">Explore</p>
-
-          <!-- Links Row -->
+          <p class="h5 text-white mb-3 fw-bold ps-lg-5">Topics & Explore</p>
           <div class="row ps-lg-5">
             <div class="col-6">
               <ul class="list-unstyled d-flex flex-column gap-2">
-                <li><a href="/episodes">All Episodes</a></li>
-                <li><a href="/about-us">About Host</a></li>
-                <li><a href="/blog">Our Blog</a></li>
-                <li><a href="/gallery">Gallery</a></li>
+                <li><a href="/episodes" class="text-secondary text-decoration-none">All Episodes</a></li>
+                <li><a href="/about-us" class="text-secondary text-decoration-none">About Host</a></li>
+                <!-- SEO KEYWORD LINKS -->
+                <li><a href="/punjabi-entrepreneur-podcast.html"
+                    class="text-secondary text-decoration-none">Entrepreneur Stories</a></li>
+                <li><a href="/best-punjabi-podcast.html" class="text-secondary text-decoration-none">Best Punjabi
+                    Pod</a></li>
+                <li><a href="/puadh-region.html" class="text-secondary text-decoration-none">History of Puadh</a></li>
               </ul>
             </div>
             <div class="col-6">
               <ul class="list-unstyled d-flex flex-column gap-2">
-                <li><a href="/contact">Contact Us</a></li>
-                <li><a href="/privacy">Privacy Policy</a></li>
-                <li><a href="/terms">Terms of Use</a></li>
+                <!-- SEO LOCAL LINKS -->
+                <li><a href="/chandigarh-podcast.html" class="text-secondary text-decoration-none">Chandigarh
+                    Podcast</a></li>
+                <li><a href="/india-podcasts.html" class="text-secondary text-decoration-none">India Top Charts</a></li>
+                <li><a href="/contact" class="text-secondary text-decoration-none">Contact Us</a></li>
+                <li><a href="/privacy" class="text-secondary text-decoration-none">Privacy Policy</a></li>
               </ul>
             </div>
           </div>

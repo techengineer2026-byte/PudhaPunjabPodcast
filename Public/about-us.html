@@ -7,47 +7,187 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- ✅ FIX #5: Title now includes "Punjabi Podcast" keyword + location -->
+  <!-- ================================================================================= 
+       1. SEO METADATA (Targeting: Gurinder Singh Dhanoa, Mohali, Puadh Host)
+       ================================================================================= -->
   <title>Gurinder Singh Dhanoa | Puadh Punjabi Podcast Host – Mohali, Punjab</title>
 
   <meta name="description"
-    content="Gurinder Singh Dhanoa is the host and creator of Puadh Punjabi Podcast, recorded in Mohali, Punjab. 29+ episodes, 1M+ views preserving the Puadhi dialect and Chandigarh region culture." />
+    content="Gurinder Singh Dhanoa is the host and creator of Puadh Punjabi Podcast, recorded in Mohali, Punjab. 29+ episodes preserving the Puadhi dialect and Chandigarh region culture." />
 
   <meta name="keywords"
     content="Gurinder Singh Dhanoa, Punjabi Podcast Host, Puadh Podcast host, Puadhi dialect, Punjabi storyteller, Mohali podcast, Chandigarh podcast, Punjab podcast" />
 
-  <meta name="robots" content="index, follow" />
-
-  <!-- ✅ FIX #4: Canonical — removed trailing slash -->
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
   <link rel="canonical" href="https://puadhpunjabipodcast.com/about-us" />
+  <meta name="author" content="Gurinder Singh Dhanoa">
 
+  <!-- ================================================================================= 
+       2. PERFORMANCE & SPEED (Mobile LCP Fixes)
+       ================================================================================= -->
+  <!-- PRELOAD HOST IMAGE: Loads the main image instantly on mobile -->
+  <link rel="preload" as="image" href="/img/host.webp" fetchpriority="high">
+
+  <!-- PRECONNECT FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- NON-BLOCKING CSS (Prevents "Render Blocking" penalty) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" media="print"
+    onload="this.media='all'" />
+  <noscript>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  </noscript>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Outfit:wght@300;400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css" />
+
+  <!-- ================================================================================= 
+       3. SOCIAL MEDIA CARDS
+       ================================================================================= -->
   <meta property="og:title" content="Gurinder Singh Dhanoa | Puadh Punjabi Podcast Host" />
   <meta property="og:description"
     content="Host of Puadh Punjabi Podcast — 29+ episodes, 1M+ views, preserving the Puadhi dialect from Mohali, Punjab." />
   <meta property="og:image" content="https://puadhpunjabipodcast.com/img/host.webp" />
+  <meta property="og:image:width" content="800" />
+  <meta property="og:image:height" content="1000" />
   <meta property="og:url" content="https://puadhpunjabipodcast.com/about-us" />
   <meta property="og:type" content="profile" />
+  <meta property="og:locale" content="en_IN" />
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@PuadhP37620">
   <meta name="twitter:creator" content="@PuadhP37620">
-  <meta name="twitter:title" content="Gurinder Singh Dhanoa | Puadh Punjabi Podcast Host">
-  <meta name="twitter:description" content="29+ episodes, 1M+ views. Preserving Puadhi dialect from Mohali, Punjab.">
+  <meta name="twitter:title" content="Gurinder Singh Dhanoa | Puadh Podcast Host">
+  <meta name="twitter:description" content="Preserving Puadhi dialect from Mohali, Punjab." />
   <meta name="twitter:image" content="https://puadhpunjabipodcast.com/img/host.webp">
 
+  <!-- ================================================================================= 
+       4. FULL SCHEMA.ORG GRAPH (The "100%" Version)
+       Connects Profile -> Person -> Business -> Podcast -> FAQs
+       ================================================================================= -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "ProfilePage",
+        "@id": "https://puadhpunjabipodcast.com/about-us",
+        "url": "https://puadhpunjabipodcast.com/about-us",
+        "name": "About Gurinder Singh Dhanoa - Puadh Podcast Host",
+        "primaryImageOfPage": {
+          "@id": "https://puadhpunjabipodcast.com/img/host.webp"
+        },
+        "dateModified": "2026-03-25",
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://puadhpunjabipodcast.com" },
+            { "@type": "ListItem", "position": 2, "name": "About Host", "item": "https://puadhpunjabipodcast.com/about-us" }
+          ]
+        }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://puadhpunjabipodcast.com/#gurinder",
+        "name": "Gurinder Singh Dhanoa",
+        "alternateName": ["Puadh Podcast Host", "Gurinder Dhanoa"],
+        "jobTitle": "Podcast Host & Founder",
+        "image": "https://puadhpunjabipodcast.com/img/host.webp",
+        "description": "Gurinder Singh Dhanoa is the creator and host of Puadh Punjabi Podcast, based in Mohali, Punjab. He launched the show in 2024 to preserve the Puadhi dialect and represent the Puadh region.",
+        "url": "https://puadhpunjabipodcast.com/about-us",
+        "knowsLanguage": ["Punjabi", "Hindi", "English"],
+        "knowsAbout": ["Puadhi dialect", "Punjab culture", "Puadh region history", "Podcasting", "IT industry", "NRI lifestyle"],
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Plot F-298, R&R Tower, Phase 8B, Industrial Area, Sector 74",
+          "addressLocality": "Mohali",
+          "addressRegion": "Punjab",
+          "postalCode": "160055",
+          "addressCountry": "IN"
+        },
+        "sameAs": [
+          "https://www.instagram.com/puadhpunjabipodcast",
+          "https://www.youtube.com/@puadhpunjabipodcast",
+          "https://x.com/PuadhP37620",
+          "https://www.facebook.com/profile.php?id=61573903336128",
+          "https://open.spotify.com/show/4S1Lqp4l1Huu1MZJuKibcV"
+        ],
+        "worksFor": {
+          "@type": "PodcastSeries",
+          "@id": "https://puadhpunjabipodcast.com/#podcast",
+          "name": "Puadh Punjabi Podcast",
+          "url": "https://puadhpunjabipodcast.com",
+          "startDate": "2024",
+          "inLanguage": "pa",
+          "author": { "@id": "https://puadhpunjabipodcast.com/#gurinder" }
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://puadhpunjabipodcast.com/about-us/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Who is the host of Puadh Punjabi Podcast?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Gurinder Singh Dhanoa from Mohali, Punjab is the host and creator of Puadh Punjabi Podcast. He launched the show in 2024 with a mission to preserve the Puadhi dialect."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Where is Puadh Punjabi Podcast recorded?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The podcast is recorded at the Puadh Podcast Studio located at Plot F-298, R&R Tower, Phase 8B, Industrial Area, Sector 74, Mohali, Punjab 160055."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many episodes does Puadh Punjabi Podcast have?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Puadh Punjabi Podcast has 29+ episodes covering IT careers, NRI lifestyle, Puadhi culture, desi comedy, farming, and local history from the Puadh region of Punjab."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What language is Puadh Punjabi Podcast in?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The podcast is primarily in the Puadhi dialect — a unique regional variation of Punjabi spoken in the Puadh region covering Chandigarh, Mohali, Ropar, Patiala, and Ambala."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the mission of Puadh Punjabi Podcast?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The mission is to bring the Puadh region's culture, history, and language to a worldwide audience. This podcast is the first dedicated digital platform for Puadhi culture."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How can I become a guest on Puadh Punjabi Podcast?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You can become a guest by contacting the show via WhatsApp at +91 83607 69451 or messaging on Instagram @puadhpunjabipodcast."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
 
   <!-- Google Tag Manager -->
   <script>(function (w, d, s, l, i) { w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' }); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f); })(window, document, 'script', 'dataLayer', 'GTM-K2DN29GZ');</script>
 
-  <!-- Styles -->
-  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-  <link rel="stylesheet" href="/css/style.css" />
-
-
+  <!-- Critical Styles -->
   <style>
     .text-accent {
       color: #d4a017;
@@ -101,120 +241,6 @@
       margin-top: 6px;
     }
   </style>
-
-  <!-- ✅ FIX #1 (CRITICAL): JSON-LD syntax error fixed — added missing comma after "url" -->
-  <!-- ✅ FIX #10: Added knowsLanguage, knowsAbout, address to Person schema -->
-  <!-- ✅ FIX #11: Added PodcastSeries schema -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://puadhpunjabipodcast.com" },
-      { "@type": "ListItem", "position": 2, "name": "About Gurinder Singh Dhanoa", "item": "https://puadhpunjabipodcast.com/about-us" }
-    ]
-  }
-  </script>
-
-  <script type="application/ld+json">
-  [
-    {
-      "@context": "https://schema.org",
-      "@type": "ProfilePage",
-      "dateModified": "2026-03-18",
-      "mainEntity": {
-        "@type": "Person",
-        "name": "Gurinder Singh Dhanoa",
-        "alternateName": "Puadh Podcast Host",
-        "jobTitle": "Podcaster",
-        "image": "https://puadhpunjabipodcast.com/img/host.webp",
-        "description": "Gurinder Singh Dhanoa is the creator and host of Puadh Punjabi Podcast, based in Mohali, Punjab. He launched the show in 2024 to preserve the Puadhi dialect and culture of the Puadh region.",
-        "url": "https://puadhpunjabipodcast.com/about-us",
-        "knowsLanguage": ["Punjabi", "Hindi", "English"],
-        "knowsAbout": ["Puadhi dialect", "Punjab culture", "Puadh region history", "podcasting", "IT industry", "NRI lifestyle"],
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Plot F-298, R&R Tower, Phase 8B, Industrial Area, Sector 74",
-          "addressLocality": "Mohali",
-          "addressRegion": "Punjab",
-          "postalCode": "160055",
-          "addressCountry": "IN"
-        },
-        "sameAs": [
-          "https://www.instagram.com/puadhpunjabipodcast",
-          "https://www.youtube.com/@puadhpunjabipodcast",
-          "https://x.com/PuadhP37620",
-          "https://www.facebook.com/profile.php?id=61573903336128",
-          "https://open.spotify.com/show/4S1Lqp4l1Huu1MZJuKibcV"
-        ],
-        "worksFor": {
-          "@type": "PodcastSeries",
-          "name": "Puadh Punjabi Podcast",
-          "url": "https://puadhpunjabipodcast.com",
-          "numberOfEpisodes": 29,
-          "startDate": "2024",
-          "inLanguage": "pa",
-          "description": "The first podcast dedicated to preserving the Puadhi dialect, covering culture, NRI life, IT careers, and comedy from the Puadh region of Punjab.",
-          "author": { "@type": "Person", "name": "Gurinder Singh Dhanoa" }
-        }
-      }
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Who is the host of Puadh Punjabi Podcast?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Gurinder Singh Dhanoa from Mohali, Punjab is the host and creator of Puadh Punjabi Podcast. He launched the show in 2024 with a mission to preserve the Puadhi dialect and represent the Puadh region — which includes Mohali, Ropar, Patiala, and Ambala — on a global digital platform."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Where is Puadh Punjabi Podcast recorded?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The podcast is recorded at the Puadh Podcast Studio located at Plot F-298, R&R Tower, Phase 8B, Industrial Area, Sector 74, Mohali, Punjab 160055. The studio is easily accessible from Chandigarh and Kharar."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How many episodes does Puadh Punjabi Podcast have?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Puadh Punjabi Podcast has 29+ episodes covering IT careers, NRI lifestyle, Puadhi culture, desi comedy, farming, and local history from the Puadh region of Punjab. The show has accumulated over 1 million total views across platforms."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What language is Puadh Punjabi Podcast in?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The podcast is primarily in the Puadhi dialect — a unique regional variation of Punjabi spoken in the Puadh region covering Chandigarh, Mohali, Ropar, Patiala, and Ambala. Unlike Majhi or Malwai Punjabi, Puadhi has distinct vocabulary and tone that the show works to preserve."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is the mission of Puadh Punjabi Podcast?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The mission is to bring the Puadh region's culture, history, and language to a worldwide audience. While Majha and Malwa are well-represented in Punjabi media, the Puadh region's unique stories and dialect were going undocumented. This podcast is the first dedicated digital platform for Puadhi culture."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How can I become a guest on Puadh Punjabi Podcast?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "You can become a guest by contacting the show via WhatsApp at +91 83607 69451, messaging on Instagram @puadhpunjabipodcast, or filling out the contact form at puadhpunjabipodcast.com/contact. The show is looking for guests with stories related to Punjabi culture, tech careers, NRI life, and the Puadh region."
-          }
-        }
-      ]
-    }
-  ]
-  </script>
 </head>
 
 <body>
@@ -480,10 +506,102 @@
     </div>
   </section>
 
-    <footer class="bg-black text-secondary border-top border-secondary pt-5 pb-2">
-        <!-- ✅ CHANGED: Added 'footer-padding' class to control Left/Right spacing perfectly -->
+  <footer class="bg-black text-secondary border-top border-secondary pt-5 pb-2">
+    <div class="container-fluid footer-padding">
 
-    </footer>
+      <div class="row justify-content-between text-center text-lg-start">
+
+        <!-- COLUMN 1: LEFT -->
+        <div class="col-lg-4 mb-5">
+          <div class="d-flex align-items-center justify-content-center justify-content-lg-start gap-3 mb-3">
+            <img src="/img/logo.webp" alt="Puadh Podcast Logo" width="55" height="55"
+              class="rounded-circle border border-secondary" loading="lazy" />
+            <p class="h4 m-0 text-white fw-bold">Puadh Podcast Studio</p>
+          </div>
+
+          <p class="small text-secondary mb-3 mx-auto mx-lg-0" style="max-width: 380px;">
+            The #1 Podcast representing the Puadh region. Unfiltered, Unscripted, Unapologetic.
+          </p>
+
+          <div class="small text-secondary mx-auto mx-lg-0" style="max-width: 380px;">
+            <div class="d-flex justify-content-center justify-content-lg-start mb-2">
+              <i class="fas fa-map-marker-alt text-white mt-1 me-3"></i>
+              <span class="text-start text-lg-start">Plot F-298, R&R Tower, Phase 8B, Ind. Area,<br>Sector 74, Mohali,
+                Punjab 160055</span>
+            </div>
+            <div class="d-flex justify-content-center justify-content-lg-start">
+              <i class="fas fa-phone-alt text-white mt-1 me-3"></i>
+              <span>+91 83607 69451</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- COLUMN 2: CENTER - UPDATED WITH SEO LINKS -->
+        <div class="col-lg-4 mb-5">
+          <p class="h5 text-white mb-3 fw-bold ps-lg-5">Topics & Explore</p>
+          <div class="row ps-lg-5">
+            <div class="col-6">
+              <ul class="list-unstyled d-flex flex-column gap-2">
+                <li><a href="/episodes" class="text-secondary text-decoration-none">All Episodes</a></li>
+                <li><a href="/about-us" class="text-secondary text-decoration-none">About Host</a></li>
+                <!-- ADDED: Keyword Links -->
+                <li><a href="/punjabi-entrepreneur-podcast.html"
+                    class="text-secondary text-decoration-none">Entrepreneur Stories</a></li>
+                <li><a href="/best-punjabi-podcast.html" class="text-secondary text-decoration-none">Best Punjabi
+                    Pod</a></li>
+                <li><a href="/puadh-region.html" class="text-secondary text-decoration-none">History of Puadh</a></li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <ul class="list-unstyled d-flex flex-column gap-2">
+                <!-- ADDED: Local Keyword Links -->
+                <li><a href="/chandigarh-podcast.html" class="text-secondary text-decoration-none">Chandigarh
+                    Podcast</a></li>
+                <li><a href="/india-podcasts.html" class="text-secondary text-decoration-none">India Top Charts</a></li>
+                <li><a href="/contact" class="text-secondary text-decoration-none">Contact Us</a></li>
+                <li><a href="/privacy" class="text-secondary text-decoration-none">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- COLUMN 3: RIGHT -->
+        <div class="col-lg-4 mb-4">
+          <p class="h5 text-white mb-3 fw-bold">Follow Us</p>
+
+          <div class="social-icons d-flex flex-wrap justify-content-center justify-content-lg-start gap-2 mb-4">
+            <a href="https://www.instagram.com/puadhpunjabipodcast/" aria-label="Follow us on Instagram" target="_blank"
+              rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/918360769451" aria-label="Contact via WhatsApp" target="_blank"
+              rel="noopener noreferrer"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.youtube.com/@puadhpunjabipodcast" aria-label="Subscribe on YouTube" target="_blank"
+              rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61573903336128" aria-label="Follow on Facebook"
+              target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+            <a href="https://x.com/PuadhP37620" aria-label="Follow on X (Twitter)" target="_blank"
+              rel="noopener noreferrer"><i class="fab fa-x-twitter"></i></a>
+            <a href="https://open.spotify.com/show/4S1Lqp4l1Huu1MZJuKibcV" aria-label="Listen on Spotify"
+              target="_blank" rel="noopener noreferrer"><i class="fab fa-spotify"></i></a>
+          </div>
+
+          <p class="h6 text-white mb-2 fw-bold">Join the Squad</p>
+          <p class="small text-secondary mb-3">Get notified about new episodes and updates.</p>
+
+          <form class="input-group mx-auto mx-lg-0" style="max-width: 400px;">
+            <input type="email" class="form-control bg-dark border-secondary text-white" placeholder="Email Address"
+              aria-label="Email Address">
+            <button class="btn btn-spotify fw-bold px-4" type="button">Subscribe</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="text-center mt-4 pt-3 border-top border-secondary" style="border-color: #222 !important;">
+        <p class="small text-secondary mb-0">
+          &copy; 2026 Puadh Punjabi Podcast Studio. All rights reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
