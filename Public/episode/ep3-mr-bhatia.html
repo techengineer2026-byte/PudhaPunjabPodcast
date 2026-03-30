@@ -134,22 +134,60 @@
     type="application/ld+json"> { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [ { "@type": "Question", "name": "What is the best Punjabi podcast to listen to?", "acceptedAnswer": { "@type": "Answer", "text": "Puadh Punjabi Podcast is the #1 Punjabi podcast for authentic Puadhi culture, IT career stories, NRI life, and desi comedy — hosted by Gurinder Singh Dhanoa from Chandigarh." } }, { "@type": "Question", "name": "Where can I listen to Punjabi podcasts?", "acceptedAnswer": { "@type": "Answer", "text": "Puadh Punjabi Podcast is available on Spotify, Apple Podcasts, YouTube, and directly at puadhpunjabipodcast.com. Search 'Puadh Punjabi Podcast' on any platform." } }, { "@type": "Question", "name": "What is the Puadhi dialect?", "acceptedAnswer": { "@type": "Answer", "text": "Puadhi is a regional dialect of Punjabi spoken in the Puadh region of Punjab, India — covering Chandigarh, Mohali, Ropar, Patiala, and Ambala. It has distinct vocabulary and tone from Majhi or Malwai Punjabi." } }, { "@type": "Question", "name": "Who hosts the Puadh Punjabi Podcast?", "acceptedAnswer": { "@type": "Answer", "text": "The Puadh Punjabi Podcast is hosted by Gurinder Singh Dhanoa, based in Chandigarh, Punjab. He is passionate about preserving the Puadhi dialect through unscripted conversations." } }, { "@type": "Question", "name": "What is the Puadh region of Punjab?", "acceptedAnswer": { "@type": "Answer", "text": "Puadh is a historic region of Punjab, India, extending from the Satluj to the Ghaggar river. It includes parts of Mohali, Ropar, Patiala, and Ambala districts." } } ] } </script>
 
   <link rel="stylesheet" href="/css/episode.css" />
+  <link rel="stylesheet" href="/css/style.css" />
 </head>
 
 <body>
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K2DN29GZ" height="0" width="0"
       style="display:none;visibility:hidden"></iframe></noscript>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top"
-      style="background: rgba(0, 0, 0, 0.8); backdrop-filter: blur(5px)">
+    <nav class="navbar navbar-expand-lg navbar-glass fixed-top">
       <div class="container">
-        <a class="navbar-brand logo-container" href="/" aria-label="Homepage">
-          <img src="/img/logo.webp" width="40" height="40" alt="Logo" />
+
+        <!-- Logo -->
+        <a class="navbar-brand logo-container" href="/" aria-label="Puadh Podcast Homepage">
+          <img src="/img/logo.webp" alt="Puadh Podcast Logo" width="60" height="60" />
         </a>
 
-        <a href="/episodes" class="btn btn-outline-light btn-sm rounded-pill px-3">
-          <i class="fas fa-arrow-left me-2"></i> All Episodes
-        </a>
+        <!-- Mobile Toggle -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Nav Content -->
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+
+          <!-- Center Menu -->
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-center">
+            <li class="nav-item">
+              <a class="nav-link" href="/episodes">Episodes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-puadh" href="/clips">⚡ Clips</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold text-warning" href="/studio">🎙️ Studio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about-us">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact">Contact Us</a>
+            </li>
+          </ul>
+
+          <!-- Single CTA -->
+          <div class="d-flex justify-content-center align-items-center mt-3 mt-lg-0">
+            <a href="/studio" class="btn-custom btn-book-studio fw-bold px-4" aria-label="Book Podcast Studio">
+              🎙️ Book Studio
+            </a>
+          </div>
+
+        </div>
       </div>
     </nav>
   </header>

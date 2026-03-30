@@ -320,15 +320,22 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-glass fixed-top">
             <div class="container">
+
+                <!-- Logo -->
                 <a class="navbar-brand logo-container" href="/" aria-label="Puadh Podcast Homepage">
                     <img src="/img/logo.webp" alt="Puadh Podcast Logo" width="60" height="60" />
                 </a>
+
+                <!-- Mobile Toggle -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
+                <!-- Nav Content -->
                 <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+
+                    <!-- Center Menu -->
                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-center">
                         <li class="nav-item">
                             <a class="nav-link" href="/episodes">Episodes</a>
@@ -337,27 +344,27 @@
                             <a class="nav-link text-puadh" href="/clips">⚡ Clips</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/contact">Contact us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/about-us">About Puadh</a>
+                            <a class="nav-link fw-bold text-warning" href="/studio">🎙️ Studio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/blog">Blog</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/about-us">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contact">Contact Us</a>
+                        </li>
                     </ul>
 
-                    <div
-                        class="d-flex flex-column flex-lg-row gap-3 justify-content-center align-items-center mt-3 mt-lg-0">
-                        <a href="https://www.youtube.com/channel/UC-CdiL2JN2GjV08p3ixs-HA"
-                            class="btn-custom btn-youtube" aria-label="Visit YouTube Channel">
-                            <i class="fab fa-youtube"></i> YouTube
-                        </a>
-                        <a href="https://open.spotify.com/show/4S1Lqp4l1Huu1MZJuKibcV" class="btn-custom btn-spotify"
-                            aria-label="Listen on Spotify">
-                            <i class="fab fa-spotify"></i> Listen Now
+                    <!-- Single CTA -->
+                    <div class="d-flex justify-content-center align-items-center mt-3 mt-lg-0">
+                        <a href="/studio" class="btn-custom btn-book-studio fw-bold px-4"
+                            aria-label="Book Podcast Studio">
+                            🎙️ Book Studio
                         </a>
                     </div>
+
                 </div>
             </div>
         </nav>
@@ -563,106 +570,162 @@
         </div>
     </section>
     <footer class="bg-black text-secondary border-top border-secondary pt-5 pb-2">
-        <!-- Class 'footer-padding' handles the responsive side spacing -->
         <div class="container-fluid footer-padding">
-
-            <!-- text-center (Mobile default) -> text-lg-start (Desktop override) -->
             <div class="row justify-content-between text-center text-lg-start">
 
-                <!-- COLUMN 1: LEFT (Logo & Info) -->
-                <div class="col-lg-4 mb-5"> <!-- Increased mb-4 to mb-5 for mobile spacing -->
+                <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+                <!-- COLUMN 1: BRAND + CONTACT                       -->
+                <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+                <div class="col-lg-4 mb-5">
 
-                    <!-- Logo: Centered on mobile via justify-content-center, Left on Desktop -->
+                    <!-- Logo + Name -->
                     <div class="d-flex align-items-center justify-content-center justify-content-lg-start gap-3 mb-3">
-                        <img src="/img/logo.webp" alt="Logo" width="55" height="55"
-                            class="rounded-circle border border-secondary" />
+                        <img src="/img/logo.webp" alt="Puadh Podcast Logo" width="55" height="55"
+                            class="rounded-circle border border-secondary" loading="lazy" />
                         <p class="h4 m-0 text-white fw-bold">Puadh Podcast Studio</p>
                     </div>
 
-                    <!-- Description: mx-auto centers the block on mobile, mx-lg-0 pushes left on desktop -->
+                    <!-- Tagline -->
                     <p class="small text-secondary mb-3 mx-auto mx-lg-0" style="max-width: 380px;">
-                        The #1 Podcast representing the Puadh region. Unfiltered, Unscripted, Unapologetic.
+                        The #1 Podcast representing the Puadh region.
+                        Unfiltered, Unscripted, Unapologetic.
                     </p>
 
-                    <!-- Address: Centered on mobile -->
+                    <!-- Address + Phone (NOW CLICKABLE) -->
                     <div class="small text-secondary mx-auto mx-lg-0" style="max-width: 380px;">
-                        <!-- d-inline-flex makes icons align nicely when centered -->
+
+                        <!-- ✅ FIX: Address wrapped in Google Maps link -->
                         <div class="d-flex justify-content-center justify-content-lg-start mb-2">
                             <i class="fas fa-map-marker-alt text-white mt-1 me-3"></i>
-                            <span class="text-start text-lg-start">Plot F-298, R&R Tower, Phase 8B, Ind. Area,<br>Sector
-                                74, Mohali, Punjab 160055</span>
+                            <a href="https://maps.google.com/?q=Plot+F-298,+R%26R+Tower,+Phase+8B,+Ind.+Area,+Sector+74,+Mohali,+Punjab+160055"
+                                target="_blank" rel="noopener noreferrer"
+                                class="text-secondary text-decoration-none text-start">
+                                Plot F-298, R&R Tower, Phase 8B, Ind. Area,<br>
+                                Sector 74, Mohali, Punjab 160055
+                            </a>
                         </div>
+
+                        <!-- ✅ FIX: Phone wrapped in tel: link -->
                         <div class="d-flex justify-content-center justify-content-lg-start">
                             <i class="fas fa-phone-alt text-white mt-1 me-3"></i>
-                            <span>+91 83607 69451</span>
+                            <a href="tel:+918360769451" class="text-secondary text-decoration-none">
+                                +91 83607 69451
+                            </a>
                         </div>
+
                     </div>
                 </div>
 
-                <!-- COLUMN 2: CENTER (Links) -->
+                <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+                <!-- COLUMN 2: NAVIGATION LINKS                      -->
+                <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
                 <div class="col-lg-4 mb-5">
-                    <!-- Added ps-lg-5 only for desktop indentation -->
-                    <p class="h5 text-white mb-3 fw-bold ps-lg-5">Explore</p>
+                    <p class="h5 text-white mb-3 fw-bold ps-lg-5">Topics & Explore</p>
 
-                    <!-- Links Row -->
                     <div class="row ps-lg-5">
+
+                        <!-- Left Sub-Column -->
                         <div class="col-6">
                             <ul class="list-unstyled d-flex flex-column gap-2">
-                                <li><a href="/episodes">All Episodes</a></li>
-                                <li><a href="/about-us">About Host</a></li>
-                                <li><a href="/blog">Our Blog</a></li>
-                                <li><a href="/gallery">Gallery</a></li>
+                                <li><a href="/episodes.html">All Episodes</a></li>
+                                <li><a href="/about-us.html">About Host</a></li>
+                                <li><a href="/blog/">Our Blog</a></li>
+                                <li><a href="/gallery.html">Gallery</a></li>
+                                <!-- ✅ FIX: Added missing Clips link -->
+                                <li><a href="/clips.html">Clips</a></li>
+                                <!-- ✅ FIX: Added missing Puadh Region link -->
+                                <li><a href="/puadh-region.html">History of Puadh</a></li>
                             </ul>
                         </div>
+
+                        <!-- Right Sub-Column -->
                         <div class="col-6">
                             <ul class="list-unstyled d-flex flex-column gap-2">
-                                <li><a href="/contact">Contact Us</a></li>
-                                <li><a href="/privacy">Privacy Policy</a></li>
-                                <li><a href="/terms">Terms of Use</a></li>
+                                <!-- ✅ FIX: Added missing Studio link -->
+                                <li><a href="/studio/">Studio Services</a></li>
+                                <li><a href="/punjab-podcast/">Punjab Podcast</a></li>
+                                <li><a href="/contact.html">Contact Us</a></li>
+                                <li><a href="/privacy/">Privacy Policy</a></li>
+                                <li><a href="/terms/">Terms of Use</a></li>
                             </ul>
                         </div>
+
                     </div>
                 </div>
 
-                <!-- COLUMN 3: RIGHT (Socials + Subscribe) -->
+                <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+                <!-- COLUMN 3: SOCIAL + SUBSCRIBE                    -->
+                <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
                 <div class="col-lg-4 mb-4">
                     <p class="h5 text-white mb-3 fw-bold">Follow Us</p>
 
-                    <!-- Icons: Centered on Mobile, Left on Desktop -->
                     <div
                         class="social-icons d-flex flex-wrap justify-content-center justify-content-lg-start gap-2 mb-4">
-                        <a href="https://www.instagram.com/puadhpunjabipodcast/" aria-label="Instagram"><i
-                                class="fab fa-instagram"></i></a>
-                        <a href="https://wa.me/918360769451" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
-                        <a href="https://www.youtube.com/@puadhpunjabipodcast" aria-label="YouTube"><i
-                                class="fab fa-youtube"></i></a>
-                        <a href="https://www.facebook.com/profile.php?id=61573903336128" aria-label="Facebook"><i
-                                class="fab fa-facebook"></i></a>
-                        <a href="https://x.com/PuadhP37620" aria-label="Twitter X"><i class="fab fa-x-twitter"></i></a>
-                        <a href="https://open.spotify.com/show/4S1Lqp4l1Huu1MZJuKibcV" aria-label="Spotify"><i
-                                class="fab fa-spotify"></i></a>
+                        <a href="https://www.instagram.com/puadhpunjabipodcast/" aria-label="Follow us on Instagram"
+                            target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://wa.me/918360769451" aria-label="Contact via WhatsApp" target="_blank"
+                            rel="noopener noreferrer">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@puadhpunjabipodcast" aria-label="Subscribe on YouTube"
+                            target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=61573903336128" aria-label="Follow on Facebook"
+                            target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://x.com/PuadhP37620" aria-label="Follow on X (Twitter)" target="_blank"
+                            rel="noopener noreferrer">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                        <a href="https://open.spotify.com/show/4S1Lqp4l1Huu1MZJuKibcV" aria-label="Listen on Spotify"
+                            target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-spotify"></i>
+                        </a>
+                        <!-- ✅ FIX: Added missing RSS Feed icon -->
+                        <a href="/rss.xml" aria-label="RSS Feed" target="_blank" rel="noopener noreferrer">
+                            <i class="fas fa-rss"></i>
+                        </a>
                     </div>
 
-                    <p class="h6 text-white mb-2 fw-bold">Join the Squad</p>
-                    <p class="small text-secondary mb-3">Get notified about new episodes and updates.</p>
+                    <!-- Subscribe Form -->
+                    <p class="h6 text-white mb-2 fw-bold">Never Miss a New Episode</p>
+                    <p class="small text-secondary mb-3">
+                        Get fresh Punjabi podcast episodes, guest updates,
+                        and exclusive Puadhi stories in your inbox.
+                    </p>
 
-                    <!-- Form: mx-auto ensures the input box doesn't look weird on mobile -->
-                    <form class="input-group mx-auto mx-lg-0" style="max-width: 400px;">
-                        <input type="email" class="form-control bg-dark border-secondary text-white"
-                            placeholder="Email Address" aria-label="Email Address">
-                        <button class="btn btn-spotify fw-bold px-4" type="button">Subscribe</button>
+                    <!-- ✅ FIX: Added accessible label + placeholder -->
+                    <form class="input-group mx-auto mx-lg-0" style="max-width: 400px;" onsubmit="return false;">
+                        <label for="footer-email" class="visually-hidden">
+                            Email Address
+                        </label>
+                        <input id="footer-email" type="email" class="form-control bg-dark border-secondary text-white"
+                            placeholder="Enter your email" aria-label="Email Address" required />
+                        <button class="btn btn-spotify fw-bold px-4" type="submit">
+                            Get Updates
+                        </button>
                     </form>
+
                 </div>
             </div>
 
+            <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+            <!-- BOTTOM BAR: COPYRIGHT                              -->
+            <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
             <div class="text-center mt-4 pt-3 border-top border-secondary" style="border-color: #222 !important;">
                 <p class="small text-secondary mb-0">
-                    &copy; 2026 Puadh Punjabi Podcast Studio. All rights reserved.
+                    <!-- ✅ FIX: Dynamic copyright year -->
+                    &copy;
+                    <script>document.write(new Date().getFullYear())</script>
+                    Puadh Punjabi Podcast Studio. All rights reserved.
                 </p>
             </div>
-        </div>
-    </footer> <!-- ✅ CHANGED: Added 'footer-padding' class to control Left/Right spacing perfectly -->
 
+        </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
